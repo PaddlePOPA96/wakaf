@@ -1,0 +1,297 @@
+/* Import Font Google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #213e43;
+}
+
+.navigasi{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 800;
+    font-style: inherit;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+
+
+li{
+    margin: 5px;
+    border-width: 2px;
+    padding: 10px;
+    
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 5px;
+}
+.navigasi ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: rgb(31, 224, 224);
+
+}
+
+
+
+/* container */
+
+
+
+#container-atas{
+    display: flex;
+    /* box-sizing: border-box; */
+    overflow: hidden;}
+    
+.row{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+
+#container-atas .row img{
+    background-image: url(asset/Wakaf.png);
+    background-repeat: no-repeat;
+    z-index: -2;
+    transform: scaleX(-1);
+    padding-top: -0px;
+    margin: -80px;
+    padding-left: -100px;
+    /* mix-blend-mode: screen; */
+    background-position: left;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 46px;
+    display: flex;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.col-2{
+    position: flex;
+    flex-basis: 40%;
+    border: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: black;
+    padding: auto;
+}
+
+.col-2 h2{
+    text-align: center;
+    color: black;
+}
+
+.col-2 h2 .sumbangan1{
+    text-align: center;
+    padding: 5px;
+
+}
+
+.col-2 #sum{
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+.bolo{
+    margin: 50px 0;
+}
+.row2 {
+    display: flex;
+    margin: 20px;
+    width: 60%;
+    margin: auto;
+    /* flex-direction: row; */
+    justify-content: center;
+    background-color: azure;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+    border-radius: 45px;
+  }
+  
+.column {
+    padding: 0 30px;
+    justify-content: center;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+  }
+  
+.column img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+  
+  .caption {
+    color: blue;
+  }
+  
+  .caption h3,
+  .caption p {
+    margin: 2px 0;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+  }
+  
+
+.image_icon{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+/* program section */
+
+
+.mid-only{
+    text-align: center;
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px 50px;
+
+}
+
+.column2 {
+    background-color: rgb(251, 255, 255);
+    border-radius: 10px;
+    width: 31%;
+    border-radius: 5px;
+    filter: grayscale(100%);
+
+}
+
+.column2:hover
+{
+    filter: grayscale(0%);
+    scale: 110%;
+
+}
+
+.row-tengah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+
+.column2 p{
+    color: black;
+
+}
+
+h2{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+
+/* footer bawah banget  */
+
+.footer-container {
+    background-color: rgb(255, 255, 255); /* Optional */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    grid-gap: 1rem; /* Optional */
+    width: 100%;
+  }
+  
+  .column-foter {
+    padding: 1rem; /* Optional */
+  }
+
+  .column-foter h4{
+    font-weight: 800;
+    font-size: 30px;
+    padding: 5px;
+
+  }
+
+  .column-foter p{
+    font-weight: 100;
+    font-size: 14px;
+    color: black;
+  }
+
+  .column-foter a{
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(23, 58, 255);
+    text-decoration: none;
+    display: flex;
+  }
+
+
+  .column-sos a{
+    font-weight: 100;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+#cp{
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px; 
+    background-color: black;
+}
+
+
+
